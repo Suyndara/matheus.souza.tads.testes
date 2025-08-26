@@ -1,0 +1,25 @@
+@startuml IDEF0
+' Diagrama IDEF0 - Gerenciar Cadastros
+
+rectangle "A0: Gerenciar Cadastros" as A0
+
+note top of A0
+Entradas: Dados do usuario (nome, idade, email)
+Saidas: Arquivos JSON
+Controles: 1 cadastro = 1 arquivo, JSON válido
+Mecanismos: Java + Gson + Sistema de arquivos
+end note
+
+rectangle "A1: Cadastrar Usuário" as A1
+rectangle "A2: Listar Cadastros" as A2
+rectangle "A3: Buscar Cadastro" as A3
+rectangle "A4: Excluir Cadastro" as A4
+rectangle "A5: Encerrar Sistema" as A5
+
+A0 --> A1
+A0 --> A2
+A0 --> A3
+A0 --> A4
+A0 --> A5
+
+@enduml

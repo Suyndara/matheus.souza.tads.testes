@@ -1,0 +1,18 @@
+@startuml CasosDeUso
+
+actor "Usuário" as Usuario
+
+rectangle "Sistema de Cadastro" {
+    usecase "Cadastrar Usuário" as UC1
+    usecase "Listar Cadastros" as UC2
+    usecase "Buscar Cadastro" as UC3
+    usecase "Excluir Cadastro" as UC4
+    usecase "Encerrar Sistema" as UC5
+}
+
+Usuario --> UC1
+Usuario --> UC2
+Usuario --> UC3
+Usuario --> UC4
+Usuario --> UC5
+@enduml

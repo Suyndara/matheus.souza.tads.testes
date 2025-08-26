@@ -1,0 +1,35 @@
+@startuml Sequencia 
+
+actor Usuario
+participant Main
+participant SistemaCadastro
+participant Pessoa
+
+== Cadastro ==
+Usuario -> Main: solicita cadastrar
+Main -> Usuario: solicita nome, idade, email
+Usuario -> Main: envia dados
+Main -> SistemaCadastro: salvarCadastro(Pessoa)
+SistemaCadastro -> Pessoa: cria objeto
+SistemaCadastro -> SistemaCadastro: gera arquivo JSON
+SistemaCadastro -> Main: confirma cadastro
+Main -> Usuario: exibe mensagem "Cadastro salvo"
+
+== Buscar Cadastro ==
+Usuario -> Main: solicita buscar
+Main -> Usuario: solicita email/nome
+Usuario -> Main: envia email/nome
+Main -> SistemaCadastro: buscarCadastro(nomeArquivo)
+SistemaCadastro -> Pessoa: lê JSON
+SistemaCadastro -> Main: retorna dados
+Main -> Usuario: exibe dados
+
+== Excluir Cadastro ==
+Usuario -> Main: solicita exclusão
+Main -> Usuario: solicita email/nome
+Usuario -> Main: envia email/nome
+Main -> SistemaCadastro: excluirCadastro(email)
+SistemaCadastro -> SistemaCadastro: deleta arquivo JSON
+SistemaCadastro -> Main: confirma exclusão
+Main -> Usuario: exibe mensagem "Cadastro excluído"
+@enduml

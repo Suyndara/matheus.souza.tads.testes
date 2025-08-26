@@ -1,0 +1,29 @@
+@startuml Classes
+
+package "Cadastro de Usuários" {
+    class Pessoa {
+        - nome: String
+        - idade: int
+        - email: String
+        + Pessoa(nome: String, idade: int, email: String)
+        + toString(): String
+    }
+
+    class SistemaCadastro {
+        + salvarCadastro(p: Pessoa): void
+        + listarCadastros(): void
+        + buscarCadastro(nomeArquivo: String): void
+        + excluirCadastro(email: String): void
+    }
+
+    class Main {
+        + main(args: String[]): void
+        - cadastrar(): void
+        - buscar(): void
+        - excluir(): void
+    }
+
+    Main --> SistemaCadastro
+    SistemaCadastro --> Pessoa
+}
+@enduml
