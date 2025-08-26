@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="282px" preserveAspectRatio="none" style="width:965px;height:282px;" version="1.1" viewBox="0 0 965 282" width="965px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ewojczvsz623" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[020e489cfec84729d6d2ae331e2712ab]
+entity A0--><rect fill="#FEFECE" filter="url(#f1ewojczvsz623)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="188" x="388.5" y="139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="398.5" y="161.9951">A0: Gerenciar Cadastros</text><path d="M314,8 L314,78.5313 A0,0 0 0 0 314,78.5313 L478.5,78.5313 L482.5,138.81 L486.5,78.5313 L651,78.5313 A0,0 0 0 0 651,78.5313 L651,18 L641,8 L314,8 A0,0 0 0 0 314,8 " fill="#FBFB77" filter="url(#f1ewojczvsz623)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M641,8 L641,18 L651,18 L641,8 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="314" x="320" y="25.0669">Entradas: Dados do usuario (nome, idade, email)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="142" x="320" y="40.1997">Saidas: Arquivos JSON</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="296" x="320" y="55.3325">Controles: 1 cadastro = 1 arquivo, JSON válido</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="316" x="320" y="70.4653">Mecanismos: Java + Gson + Sistema de arquivos</text><!--MD5=[23bc7945312e1f0a2e37cebfe503a03b]
+entity A1--><rect fill="#FEFECE" filter="url(#f1ewojczvsz623)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="169" x="6" y="235"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="16" y="257.9951">A1: Cadastrar Usuário</text><!--MD5=[406a5e0ae180932da9bcb21c819a1904]
+entity A2--><rect fill="#FEFECE" filter="url(#f1ewojczvsz623)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="157" x="210" y="235"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="220" y="257.9951">A2: Listar Cadastros</text><!--MD5=[305b0bf20d1e87c4314d270a9e4e4ae4]
+entity A3--><rect fill="#FEFECE" filter="url(#f1ewojczvsz623)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="161" x="402" y="235"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="141" x="412" y="257.9951">A3: Buscar Cadastro</text><!--MD5=[b4296d86aafbbd2074f03a740cb37cff]
+entity A4--><rect fill="#FEFECE" filter="url(#f1ewojczvsz623)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="157" x="598" y="235"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="608" y="257.9951">A4: Excluir Cadastro</text><!--MD5=[92e12b53097991ea4e702b1584848830]
+entity A5--><rect fill="#FEFECE" filter="url(#f1ewojczvsz623)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="164" x="790.5" y="235"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="800.5" y="257.9951">A5: Encerrar Sistema</text><!--MD5=[c2c6fdd1dc0e3cc43addcf6e2f93a043]
+link A0 to A1--><path d="M411.51,175.02 C342.35,191.61 237.54,216.74 166.66,233.74 " fill="none" id="A0-&gt;A1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="161.62,234.95,171.302,236.7554,166.4839,233.7913,169.448,228.9732,161.62,234.95" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d5273dbc9bf7e663abb3b5563cd828fb]
+link A0 to A2--><path d="M447.37,175.02 C413.82,191.28 363.34,215.74 328.32,232.71 " fill="none" id="A0-&gt;A2" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="323.7,234.95,333.5432,234.6159,328.1975,232.7655,330.048,227.4198,323.7,234.95" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bb48eb20f4804c1808af4ffe7819d143]
+link A0 to A3--><path d="M482.5,175.24 C482.5,190.48 482.5,212.81 482.5,229.46 " fill="none" id="A0-&gt;A3" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="482.5,234.87,486.5,225.87,482.5,229.87,478.5,225.87,482.5,234.87" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[16f11c6694a7801ddeacc47b83c91e15]
+link A0 to A4--><path d="M517.63,175.02 C551.18,191.28 601.66,215.74 636.68,232.71 " fill="none" id="A0-&gt;A4" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="641.3,234.95,634.952,227.4198,636.8025,232.7655,631.4568,234.6159,641.3,234.95" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a1d67cf287207d21658413218f460976]
+link A0 to A5--><path d="M553.13,175.02 C621.94,191.61 726.21,216.74 796.72,233.74 " fill="none" id="A0-&gt;A5" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="801.74,234.95,793.9247,228.9566,796.8786,233.781,792.0542,236.7349,801.74,234.95" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[371aba6d76815014aa857c87e4835fb5]
+@startuml IDEF0
+
+rectangle "A0: Gerenciar Cadastros" as A0
+
+note top of A0
+Entradas: Dados do usuario (nome, idade, email)
+Saidas: Arquivos JSON
+Controles: 1 cadastro = 1 arquivo, JSON válido
+Mecanismos: Java + Gson + Sistema de arquivos
+end note
+
+rectangle "A1: Cadastrar Usuário" as A1
+rectangle "A2: Listar Cadastros" as A2
+rectangle "A3: Buscar Cadastro" as A3
+rectangle "A4: Excluir Cadastro" as A4
+rectangle "A5: Encerrar Sistema" as A5
+
+A0 - -> A1
+A0 - -> A2
+A0 - -> A3
+A0 - -> A4
+A0 - -> A5
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.7+6-LTS
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

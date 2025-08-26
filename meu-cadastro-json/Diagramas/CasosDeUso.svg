@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="211px" preserveAspectRatio="none" style="width:940px;height:211px;" version="1.1" viewBox="0 0 940 211" width="940px" zoomAndPan="magnify"><defs><filter height="300%" id="f1o5s34y6bekk0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[69f0e39420f5a7c9c99948dabcd44e07]
+cluster Sistema de Cadastro--><rect fill="#FFFFFF" filter="url(#f1o5s34y6bekk0)" height="86" style="stroke: #000000; stroke-width: 1.5;" width="907" x="22" y="114"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="163" x="394" y="128.9951">Sistema de Cadastro</text><ellipse cx="835.8548" cy="166.671" fill="#FEFECE" filter="url(#f1o5s34y6bekk0)" rx="76.3548" ry="17.671" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="774.8548" y="171.3194">Cadastrar Usuário</text><ellipse cx="652.9465" cy="166.6893" fill="#FEFECE" filter="url(#f1o5s34y6bekk0)" rx="71.4465" ry="16.6893" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="597.9465" y="171.3377">Listar Cadastros</text><ellipse cx="473.0637" cy="166.5127" fill="#FEFECE" filter="url(#f1o5s34y6bekk0)" rx="73.0637" ry="17.0127" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="416.0637" y="171.1612">Buscar Cadastro</text><ellipse cx="292.9465" cy="166.6893" fill="#FEFECE" filter="url(#f1o5s34y6bekk0)" rx="71.4465" ry="16.6893" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="237.9465" y="171.3377">Excluir Cadastro</text><ellipse cx="111.7894" cy="166.2579" fill="#FEFECE" filter="url(#f1o5s34y6bekk0)" rx="74.2894" ry="17.2579" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="53.2894" y="170.9063">Encerrar Sistema</text><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><ellipse cx="473" cy="17.5" fill="#FEFECE" filter="url(#f1o5s34y6bekk0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M473,25.5 L473,52.5 M460,33.5 L486,33.5 M473,52.5 L460,67.5 M473,52.5 L486,67.5 " fill="none" filter="url(#f1o5s34y6bekk0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="447" y="85.9951">Usuário</text><!--MD5=[3bf97b21437bb50a3847ad07237a1ab7]
+link Usuario to UC1--><path d="M499.11,51.87 C548.24,56.99 657.11,71.53 742,106 C767.08,116.18 792.86,133.04 811.07,146.22 " fill="none" id="Usuario-&gt;UC1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="815.53,149.49,810.6273,140.9481,811.4944,146.5381,805.9043,147.4052,815.53,149.49" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a79f49966e18d505242c6265dffaeae2]
+link Usuario to UC2--><path d="M499.03,65.34 C517.31,76.54 542.27,92 564,106 C585.32,119.74 609.19,135.73 626.84,147.68 " fill="none" id="Usuario-&gt;UC2" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="631.19,150.62,625.9732,142.2663,627.0474,147.8202,621.4935,148.8944,631.19,150.62" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9a7de45625b1a16567a66ef61b47f8ec]
+link Usuario to UC3--><path d="M473,89.1 C473,107.45 473,128.55 473,143.92 " fill="none" id="Usuario-&gt;UC3" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="473,149.3,477,140.3,473,144.3,469,140.3,473,149.3" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[308be7f1a44bc72ba915f38ccf9a99a3]
+link Usuario to UC4--><path d="M446.9,65.66 C428.88,76.87 404.4,92.21 383,106 C361.52,119.84 337.37,135.83 319.5,147.75 " fill="none" id="Usuario-&gt;UC4" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="315.1,150.68,324.8033,148.9928,319.2537,147.8966,320.3499,142.347,315.1,150.68" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2e3635930ea1075ed2a816ad62b2f1de]
+link Usuario to UC5--><path d="M446.85,51.79 C397.67,56.78 288.72,71.12 204,106 C179.35,116.15 154.12,133.01 136.33,146.2 " fill="none" id="Usuario-&gt;UC5" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="131.98,149.47,141.58,147.27,135.98,146.47,136.78,140.87,131.98,149.47" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e47c8e094d155936acaa05eb57a4ccdf]
+@startuml CasosDeUso
+
+actor "Usuário" as Usuario
+
+rectangle "Sistema de Cadastro" {
+    usecase "Cadastrar Usuário" as UC1
+    usecase "Listar Cadastros" as UC2
+    usecase "Buscar Cadastro" as UC3
+    usecase "Excluir Cadastro" as UC4
+    usecase "Encerrar Sistema" as UC5
+}
+
+Usuario - -> UC1
+Usuario - -> UC2
+Usuario - -> UC3
+Usuario - -> UC4
+Usuario - -> UC5
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.7+6-LTS
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
